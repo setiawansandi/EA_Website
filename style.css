@@ -86,11 +86,7 @@ nav a:hover::before {
 
 
 footer{
-<<<<<<< HEAD
-    clear: both;
     font-size: 15px;
-=======
->>>>>>> parent of d3936a6 (Update style.css)
     background-color: #555B6E;
     color: #FAF9F9;
     text-align: right;
