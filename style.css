@@ -106,3 +106,18 @@ footer{
     text-align:justify;
 }
 
+#contact{
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: left;
+    font-size: 23px;
+    color: #555B6E;
+}
+
+#contacttext{
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:left;
+}
