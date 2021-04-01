@@ -31,16 +31,17 @@ nav ul{
     list-style: none;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 35px;
+    margin-right: 35px;
     padding-top: 23px;
     padding-bottom: 23px;
 
     position: relative;
 }
 
-nav ul > li > a{
+nav ul li a{
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
@@ -141,4 +142,14 @@ footer{
     text-align: center;
     font-size: 30px;
     color: #555B6E;
+}
+
+.submenu1{
+    display: none;
+}
+
+nav ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: #FFD6BA;
 }
