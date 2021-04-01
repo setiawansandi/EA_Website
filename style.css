@@ -70,15 +70,15 @@ nav a:hover::before {
 #main{
     width: 500px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+    margin-top: 150px;
     text-align: center;
     font-size: 30px;
-    color: #555B6E;
-    
+    color: #555B6E; 
 }
 
 #text{
-    width: 800px;
+    width: 500px;
     margin-left: auto;
     margin-right:auto;
     text-align:center!important;
@@ -110,6 +110,7 @@ footer{
     width: 600px;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 150px;
     text-align: left;
     font-size: 23px;
     color: #555B6E;
@@ -120,4 +121,24 @@ footer{
     margin-left: auto;
     margin-right:auto;
     text-align:left;
+}
+
+#mainbody{
+    width: 100%;
+    height: 500px;
+}
+
+#aboutbody{
+    width: 100%;
+    height: 550px;
+}
+
+#about{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #555B6E;
 }
