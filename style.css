@@ -92,3 +92,17 @@ footer{
     text-align: right;
     padding: 10px 23px;
 }
+
+#profile{
+    width: 128px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#abouttext{
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:justify;
+}
+
