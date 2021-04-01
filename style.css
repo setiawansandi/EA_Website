@@ -86,6 +86,7 @@ nav a:hover::before {
 
 
 #footer{
+    clear: both;
     font-size: 15px;
     background-color: #555B6E;
     color: #FAF9F9;
