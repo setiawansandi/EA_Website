@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: #FAF9F9;
+    background: #222;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
@@ -12,7 +12,7 @@ body{
 }
 
 header {
-    background: #89B0AE;
+    background: #55d6aa;
 }
 
 header::after{
@@ -65,29 +65,4 @@ nav a::before{
 
 nav a:hover::before {
     width: 100%;
-}
-
-#main{
-    width: 500px;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
-    font-size: 30px;
-    color: #555B6E;
-    
-}
-
-#text{
-    width: 800px;
-    margin-left: auto;
-    margin-right:auto;
-    text-align:center!important;
-}
-
-
-footer{
-    background-color: #555B6E;
-    color: #FAF9F9;
-    text-align: right;
-    padding: 10px 23px 10px 0px;
 }
