@@ -85,10 +85,10 @@ nav a:hover::before {
 }
 
 
-footer{
+#footer{
     font-size: 15px;
     background-color: #555B6E;
     color: #FAF9F9;
     text-align: right;
-    padding: 10px 23px 10px 0px;
+    padding: 10px 23px;
 }
