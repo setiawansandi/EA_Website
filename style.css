@@ -97,7 +97,7 @@ footer{
 #profile{
     width: 128px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 
 #abouttext{
@@ -125,8 +125,10 @@ footer{
 }
 
 #mainbody{
-    width: 100%;
+    width: 50%;
     height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #aboutbody{
@@ -152,4 +154,11 @@ nav ul li:hover .submenu1{
     display: block;
     position: absolute;
     background: #FFD6BA;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
 }
