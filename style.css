@@ -160,5 +160,20 @@ nav ul li:hover .submenu1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 70%;
+}
+
+#back a{
+    text-decoration: none;
+    color: #555B6E;
+}
+
+#back{
+    width: 10%;
+    font-size: 100%;
+    background-color: #FFD6BA;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1% 5%;
 }
