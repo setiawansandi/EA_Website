@@ -87,6 +87,7 @@ nav a:hover::before {
 
 
 footer{
+    clear: both;
     font-size: 13px;
     background-color: #555B6E;
     color: #FAF9F9;
@@ -95,7 +96,7 @@ footer{
 }
 
 #profile{
-    width: 128px;
+    width: 256px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -140,9 +141,9 @@ footer{
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 61px;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     color: #555B6E;
 }
 
@@ -169,6 +170,7 @@ nav ul li:hover .submenu1{
 }
 
 #back{
+    clear: both;
     width: 10%;
     font-size: 100%;
     background-color: #FFD6BA;
@@ -179,7 +181,28 @@ nav ul li:hover .submenu1{
 }
 
 #maintext{
-    width: 50%;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#section{
+    clear: both;
+    padding: 10px;
+}
+
+#section img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+#section_img{
+    width: 380px;
+    float: left;
+}
+
+#section_text{
+    width: 390px;
+    float: right;
 }
