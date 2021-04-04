@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400">
+<link rel="shortcut icon" type="img/png" href="images/icon.png" />
+<title>engacad</title>
+</head>
+<header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Project</a>
+                    <div class="submenu1">
+                        <ul>
+                            <li><a href="websitedevelopment.html">Web development</a></li>
+                            <li><a href="cad.html">CAD</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <div id= "maintext">
+        <p>&nbsp;</p>
+        <h1 style= "text-align:center">Computer Aided Drafting</h1>
+        <p>&nbsp;</p>
+        <p>Computer Aided Drafting (CAD) is the use of computer to aid in the designing, modification, analysis or simulation of the result without the need of building the object. Once tested, you can start building the design by sending the drawing to the machine to be laser cut or 3D printed.</p>
+        <p>The software that I use for CAD is Fusion 360. Fusion 360 is a software that allows you to create 2D drawing and 3D model for your design. </p>
+        <p>Here are some example of CAD that I create using Fusion 360:</p>
+
+        <div id="section">
+            <h2>1. Name Tag</h2>
+            <div id="section_img">
+                <p><img src="images/nt_sketch.png" referrerpolicy="no-referrer" alt="name_tag_sketch" ></p>
+                <p><img src="images/nt_model.png" referrerpolicy="no-referrer" alt="name_tag_model" ></p>
+            </div>
+
+            <div id="section_text">
+                
+                <p>Steps taken:</p>
+                <ol start='' >
+                <li>Click any panel and then click <strong>create sketch</strong> to start drawing.</li>
+                <li>Draw a 50x20 mm rectangle and another rectangle inside with offset of 2 mm.</li>
+                <li>Use 3-point arc to draw the rounded edge.</li>
+                <li>To draw the hole, use circle tool to draw 2 circles with outer diameter of 3.5 mm and inner radius of 3.75 mm.</li>
+                <li>Extrude the base to 2 mm height and then select the edge of the base and extrude it to 3 mm height.</li>
+                <li>Put <u>your name</u> (using <em>text</em>) on the depressed middle region and extrude it by 1 mm height. </li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div id="section">
+            <h2>2. Exercise 3</h2>
+            <div id="section_img">
+                <p><img src="images/ex3.png" referrerpolicy="no-referrer" alt="exercise_3" ></p>
+            </div>
+
+            <div id="section_text">
+                <p>Steps taken:</p>
+                <ol start='' >
+                <li>Starts with the L shape by drawing 2 rectangle perpendicularly (<strong>60 x 20 mm</strong> and <strong>45 x 20 mm</strong>).</li>
+                <li>Extrude the shape by 100 mm.</li>
+                <li>Go to front view and draw a R25 circle at the top center of the rectangle.</li>
+                <li>Extrude the circle until it reaches other side (use <em>to object</em>).</li>
+                <li>Use hole tool to create a diameter 40 mm hole.</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div id="section">
+            <h2>3. Exercise 5</h2>
+            <div id="section_img">
+                <p><img src="images/ex5.png" referrerpolicy="no-referrer" alt="exercise_5" ></p>
+            </div>
+
+            <div id="section_text">
+                <p>Steps taken:</p>
+                <ol start='' >
+                <li>Starts with the L shape by drawing 2 rectangle perpendicularly (<strong>130 x 10 mm</strong> and <strong>40 x 50 mm</strong>).</li>
+                <li>Sketch a diameter 50 mm circle at the top centre of the 40 x 50 mm rectangle.</li>
+                <li>Extrude the shape by 40 mm.</li>
+                <li>Go to side view and cut the middle section by 20 mm wide.</li>
+                <li>Use hole tool to create diameter 30 mm hole.</li>
+                <li>Go to top view and draw the the semicircle with radius of 15 mm.</li>
+                <li>Extrude the semicircle until it reaches the same height as the base (use <em>to object</em>).</li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="section">
+            <h2>3. Pawn and Knight piece</h2>
+            <div id="section_img">
+                <p><img src="images/pawn.png" referrerpolicy="no-referrer" alt="pawn" ></p>
+                <p><img src="images/knight.png" referrerpolicy="no-referrer" alt="knight" ></p>
+            </div>
+
+            <div id="section_text">
+            <p>Steps taken:</p>
+            <ol start='' >
+            <li>Import a pawn image to use as reference (use <strong>insert &gt; Canvas</strong>).</li>
+            <li>Sketch on top of the canvas using lines and splines (sketch only <strong>half</strong> section).</li>
+            <li>Use revolve tool to generate the pawn model.</li>
+
+            </ol>
+            <br><br><br><br><br><br><br><br>
+
+            <p>Steps taken:</p>
+            <ul>
+            <li>Similar to pawn however only use <em>revolve</em> tool for the base while use <em>extrude</em> for the head segment.</li>
+            </ul>
+            </div>
+
+        </div>
+
+        <div id="section">
+            <h2>4. Box with finger joint</h2>
+            <div id="section_img">
+                <p><img src="images/box1.png" referrerpolicy="no-referrer" alt="box_model" ></p>
+                <p><img src="images/basebox.png" referrerpolicy="no-referrer" alt="box_model" ></p>
+            </div>
+                
+            <div id="section_text">
+                <p><img src="images/frontbox.png" referrerpolicy="no-referrer" alt="box_model" ></p>
+                <p><img src="images/sidebox.png" referrerpolicy="no-referrer" alt="box_model" ></p>
+            </div>
+
+        </div>
+        
+        <div id="back">
+            <p><a href="index.html">Back</a></p>
+        </div>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+    </div>
+
+    <footer>
+        Copyright &copy; 2021 Sandi Setiawan
+    </footer>
+
+
+</body>
+</html>
