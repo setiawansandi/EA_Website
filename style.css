@@ -205,4 +205,5 @@ nav ul li:hover .submenu1{
 #section_text{
     width: 390px;
     float: right;
+    text-align: justify;
 }
