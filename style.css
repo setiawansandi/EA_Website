@@ -68,8 +68,14 @@ nav a:hover::before {
     width: 100%;
 }
 
+.content{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 #main{
-    width: 500px;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
@@ -181,7 +187,7 @@ nav ul li:hover .submenu1{
 }
 
 #maintext{
-    width: 800px;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,12 +204,12 @@ nav ul li:hover .submenu1{
 }
 
 #section_img{
-    width: 380px;
+    width: 50%;
     float: left;
 }
 
 #section_text{
-    width: 390px;
+    width: 50%;
     float: right;
     text-align: justify;
 }
