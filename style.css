@@ -90,15 +90,19 @@ nav a:hover::before {
     text-align:center!important;
 }
 
-
+/*footer*/
 footer{
-    clear: both;
+    position: absolute;
+    left: 0;
+    width: 100%;
     font-size: 13px;
     background-color: #555B6E;
     color: #FAF9F9;
-    text-align: right;
+    text-align: center;
     padding: 10px 23px;
+    box-sizing: border-box;
 }
+/*//footer*/
 
 #profile{
     width: 256px;
