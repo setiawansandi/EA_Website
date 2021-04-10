@@ -12,24 +12,29 @@ body{
     font-weight: 400;
 }
 
-html{
+:root{
     height: 100%;
 }
 
 /*nav bar*/
 nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     background-color: #89B0AE;
+    z-index: 1;
 }
 
 .logo{
-    color: #444;
+    color: #555B6E;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -39,16 +44,25 @@ nav{
     width: 30%;
 }
 
-.nav-links a{
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
     color: #444;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 15px;
+    border-radius: 15px;
+    transition: .5s;
 }
 
-.nav-links li{
-    list-style: none;
+nav a:hover, nav a:active{
+    color: rgb(23, 23, 23);
+    background: #fffefe46;
+    padding: 5px 20px;
+    transition: .5s;
 }
 
 .burger{
@@ -72,14 +86,15 @@ nav{
 @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
+        position: relative;
     }
+    
     .nav-links{
         position: absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #89B0AE;
-        display: flex;
+        background-color: #FFD6BA;
         flex-direction: column;
         align-items: center;
         width: 50%;
@@ -99,6 +114,7 @@ nav{
 
 .nav-active{
     transform: translate(0%);
+    display: flex;
 }
 
 @keyframes navLinkFade {
@@ -123,18 +139,11 @@ nav{
 }
 /*//nav bar*/
 
-/*delete later*/
-nav ul li:hover .submenu1{
-    display: block;
-    position: absolute;
-    background: #FFD6BA;
-}
-
 /*container*/
 .container{
     min-height: 100%;
     width: 80%;
-    margin: 0 auto;
+    margin: 8vh auto;
 }
 /*//container*/
 
@@ -171,7 +180,7 @@ footer{
 
 .socials li{
     margin: 0 18px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .socials a{
