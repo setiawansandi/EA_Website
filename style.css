@@ -303,7 +303,7 @@ section{
 
 .project-bar{
     float: left;
-    width: 240px;
+    width: 220px;
     background-color: #FFD6BA;
     padding: 1rem;
     min-height: 50vh;
@@ -324,7 +324,7 @@ section{
     letter-spacing: -1px;
 }
 
-.project-links{
+.project-links/* ul */{
     list-style: none;
 }
 
@@ -336,10 +336,10 @@ section{
     text-decoration: none;
     color: #282828;
     letter-spacing: 1px;
-    transition: ease-in 0.2s;
+    transition: ease-in 0.1s;
 }
 
-.project-links li a:hover, .project-links li a:active{
+.project-links li a:hover, .project-links li .active{
     font-weight: bold;
 }
 
@@ -359,39 +359,23 @@ section{
 }
 
 
-
 /*//project page*/
 
+/*text-container*/
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    padding: 1em;
 }
 
-/*change to button*/
-#back a{
-    text-decoration: none;
-    color: #555B6E;
-}
-
-#back{
-    clear: both;
-    width: 10%;
-    font-size: 100%;
-    background-color: #FFD6BA;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1% 5%;
-}
-
-#maintext{
-    width: 55%;
+.text-container{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-
+/*text-container*/
 #section{
     clear: both;
     padding: 10px;
