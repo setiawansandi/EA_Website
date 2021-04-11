@@ -129,7 +129,7 @@ nav{
     }
 }
 
-.nav-active{
+.nav-active/* js */{
     transform: translate(0%);
     display: flex;
 }
