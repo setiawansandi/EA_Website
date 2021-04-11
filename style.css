@@ -14,13 +14,28 @@ body{
 
 :root{
     height: 100%;
+    scroll-behavior: smooth;
 }
+
+main{
+    position: relative;
+    left: 0;
+}
+
+/*page wrapper*/
+.page-wrapper{
+    min-height: 100vh;
+    width: 90%;
+    margin: 8vh auto 2vh auto;
+    max-width: 940px;
+}
+/*//page wrapper*/
 
 /*nav bar*/
 nav{
     position: fixed;
-    width: 100%;
     top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,12 +45,14 @@ nav{
     z-index: 1;
 }
 
-.logo{
+.logo a, .logo{
     color: #555B6E;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    cursor: default; 
 }
 
 .nav-links{
@@ -58,7 +75,7 @@ nav{
     transition: .5s;
 }
 
-nav a:hover, nav a:active{
+.nav-links a:hover, .nav-links a:active{
     color: rgb(23, 23, 23);
     background: #fffefe46;
     padding: 5px 20px;
@@ -129,23 +146,15 @@ nav a:hover, nav a:active{
 }
 
 .toggle .line1{
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6.5px);
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6.5px);
 }
 /*//nav bar*/
-
-/*container*/
-.container{
-    min-height: 100%;
-    width: 80%;
-    margin: 8vh auto;
-}
-/*//container*/
 
 /*footer*/
 footer{
@@ -215,17 +224,22 @@ footer{
 /*//footer*/
 
 /*section*/
-.section {
+section{
     padding-top: 3rem;
     padding-bottom: 2rem;
-  }
+}
 /*//section*/
+
+/*home section*/
+.home-section{
+    width: 100%;
+}
+/*//home section*/
 
 /*about section*/
 .about-section{
     width: 100%;
-}
-
+} 
 .about-section h2{
     padding: 5px 0;
     text-align: center;
@@ -268,9 +282,85 @@ footer{
 }
 /*//about section*/
 
-.submenu1{
-    display: none;
+/*project page*/
+.project-container{
+    overflow: auto;
 }
+
+.project-header{
+    padding: 1rem;
+    color: #555B6E;
+    transition: ease-in .3s;
+    cursor: default;
+    font-size: 3rem;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project-header:hover{
+    color: #000;
+}
+
+.project-bar{
+    float: left;
+    width: 240px;
+    background-color: #FFD6BA;
+    padding: 1rem;
+    min-height: 50vh;
+    border-radius: 5px;
+}
+
+.project-content{
+    float: right;
+    width: calc(100% - 240px);
+    padding: 1rem 0 1rem 30px;
+    text-align: justify;
+    color: #202020;
+}
+
+.project-content h1{
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+.project-links{
+    list-style: none;
+}
+
+.project-links li{
+    margin: 10px;
+}
+
+.project-links li a{
+    text-decoration: none;
+    color: #282828;
+    letter-spacing: 1px;
+    transition: ease-in 0.2s;
+}
+
+.project-links li a:hover, .project-links li a:active{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .project-bar{
+        float: none;
+        width: 100%;
+        background-color: #FFD6BA;
+        min-height: 30vh;
+    }
+    
+    .project-content{
+        float: none;
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
+
+
+
+/*//project page*/
 
 .center{
     display: block;
@@ -279,6 +369,7 @@ footer{
     width: 70%;
 }
 
+/*change to button*/
 #back a{
     text-decoration: none;
     color: #555B6E;
