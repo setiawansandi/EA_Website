@@ -307,14 +307,14 @@ section{
     width: 220px;
     background-color: #FFD6BA;
     padding: 1rem;
-    min-height: 50vh;
+    min-height: 380px;
     border-radius: 5px;
 }
 
 .project-content{
     float: right;
     width: calc(100% - 240px);
-    padding: 1rem 0 1rem 30px;
+    padding: 1rem 30px;
     text-align: justify;
     color: #202020;
 }
@@ -358,31 +358,34 @@ section{
         padding: 2rem 0;
     }
 }
-
-
 /*//project page*/
 
 /*text-container*/
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    padding: 1em;
-}
-
 .text-container{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 /*text-container*/
-#section{
+
+/*project content*/
+.project-content .center{
+    display: block;
+    margin: 1em 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-content h5,.project-content h3 {
+    margin: 1em;
+}
+
+.project-content-section{
     clear: both;
     padding: 10px;
 }
 
-#section img {
+.project-content-section img {
     width: 100%;
     height: 100%; 
     object-fit: contain;
@@ -398,3 +401,4 @@ section{
     float: right;
     text-align: justify;
 }
+/*//project content*/
