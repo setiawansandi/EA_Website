@@ -45,14 +45,14 @@ nav{
     z-index: 1;
 }
 
-.logo a, .logo{
+.logo a{
     color: #555B6E;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    cursor: default; 
+    cursor: not-allowed; 
 }
 
 .nav-links{
