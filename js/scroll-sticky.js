@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    const mediaQuery =  window.matchMedia('(min-width: 768px)')
+    const mediaQuery =  window.matchMedia('(min-width: 1024px)')
     
     //if width > 768px run the fn
     if(mediaQuery.matches){
