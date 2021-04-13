@@ -9,23 +9,14 @@ function scrollFunction() {
         if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
             document.getElementById("scroll-sidebar").style.position = "fixed";
             document.getElementById("scroll-sidebar").style.transform = "translate(0px, -90px)";
-            if (window.location.pathname == '/project.html') {
-                document.getElementById("scroll-sidebar").style.marginLeft = "240px";
-            }
 
         } else/*convert fixed to relative when body.scroll.top < 90*/ {
             document.getElementById("scroll-sidebar").style.position = "relative";
             document.getElementById("scroll-sidebar").style.transform = "none";
-            if (window.location.pathname == '/project.html') {
-                document.getElementById("scroll-sidebar").style.marginLeft = "0";
-            }
         }
     }else/*convert fixed to relative when width < 768*/ {
         document.getElementById("scroll-sidebar").style.position = "relative";
         document.getElementById("scroll-sidebar").style.transform = "none";
-        if (window.location.pathname == '/project.html') {
-            document.getElementById("scroll-sidebar").style.marginLeft = "0";
-        }
     }
 }
 
