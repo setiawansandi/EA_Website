@@ -178,7 +178,6 @@ nav{
         width: 50%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
-        border-left: 3px solid #facdaf;
     }
 
     .nav-links li{
@@ -310,12 +309,11 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 400px;
+    width: 400px;
     min-height: 300px;
 }
 
 .home-section p{
-    min-width: 400px;
     font-size: 5em;
     color: #555B6E;
     font-weight: 300;
@@ -364,6 +362,12 @@ section{
 
 .home-section button:hover::before{
     height: 0%;
+}
+
+@media screen and (max-width: 550px){
+    .home-section-center p{
+        font-size: 15vw;
+    }
 }
 /*//home-section*/
 
