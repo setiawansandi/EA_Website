@@ -321,6 +321,7 @@ section{
     transition: .5s ease;
     margin: 10px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home-section button{
@@ -344,6 +345,7 @@ section{
 
 .home-section button:hover{
     color: #555B6E;
+    background-color: #ffd6ba54;
 }
 
 .home-section button::before{
