@@ -322,6 +322,7 @@ section{
     text-shadow: 10px 10px 50px #89B0AE;
     transition: .5s ease;
     margin: 10px;
+    text-align: center;
 }
 
 .home-section button{
