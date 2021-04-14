@@ -159,6 +159,10 @@ nav{
     .nav-links{
         width: 60%;
     }
+
+    nav{
+        opacity: 0.9;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -309,11 +313,11 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 400px;
-    min-height: 300px;
+    width: 40vw;
+    min-height: 200px;
 }
 
-.home-section p{
+.home-section h1{
     font-size: 5em;
     color: #555B6E;
     font-weight: 300;
@@ -322,6 +326,11 @@ section{
     margin: 10px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+.home-section p{
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .home-section button{
@@ -367,7 +376,11 @@ section{
 }
 
 @media screen and (max-width: 550px){
-    .home-section-center p{
+    .home-section-center{
+        width: 70vw;
+    }
+
+    .home-section-center h1{
         font-size: 15vw;
     }
 }
@@ -459,7 +472,7 @@ section{
 
 .project-content h1{
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     letter-spacing: -1px;
 }
 
