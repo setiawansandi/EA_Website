@@ -178,7 +178,7 @@ nav{
         width: 50%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
-        border-left: 3px solid #ffc8a3;
+        border-left: 3px solid #facdaf;
     }
 
     .nav-links li{
@@ -326,7 +326,7 @@ section{
 }
 
 .home-section button{
-    border: 1px solid #89B0AE;
+    border: 1px solid #555B6E;
     background: none;
     font-size: 20px;
     cursor: pointer;
@@ -346,7 +346,6 @@ section{
 
 .home-section button:hover{
     color: #555B6E;
-    background-color: #bee3dba8;
 }
 
 .home-section button::before{
@@ -355,7 +354,8 @@ section{
     left: 0;
     top: 0;
     width: 100%;
-    background: #89B0AE;
+    background: #FFD6BA;
+    opacity: 0.9;
     z-index: -1;
     transition: 0.8s;
     border-radius: 0 0 50% 50%;
