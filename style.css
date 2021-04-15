@@ -467,13 +467,28 @@ section{
     padding: 1rem 30px;
     text-align: justify;
     color: #202020;
-    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .project-content h1{
     font-size: 2rem;
     text-align: center;
     letter-spacing: -1px;
+}
+
+.project-content button{
+    margin: 20px;
+    background: #BEE3DB;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: .8s;
+    color: #555B6E;
+    border-radius: 25px;
+    border: 1px solid #BEE3DB;
 }
 
 .project-links/* ul */{
@@ -520,20 +535,28 @@ section{
 /*text-container*/
 
 /*project content*/
-.project-content .center{
+.project-content .center/*img*/{
     display: block;
     margin: 1em 0;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-.project-content h5,.project-content h3 {
-    margin: 1em;
+.project-content h5, .project-content h3, .project-content h2{
+    margin: 1em 0;
+    color: #39423c;
 }
 
+.project-content p{
+    margin: 0.5em 0;
+}
+
+    /*use flex*/
 .project-content-section{
-    clear: both;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project-content-section img {
@@ -542,14 +565,12 @@ section{
     object-fit: contain;
 }
 
-#section_img{
-    width: 49%;
-    float: left;
+#section-item{
+    width: 310px;
+    min-width: 310px;
+    padding: 0 12px;
 }
 
-#section_text{
-    width: 50%;
-    float: right;
-    text-align: justify;
-}
+
+
 /*//project content*/
