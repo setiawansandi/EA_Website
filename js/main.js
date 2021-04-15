@@ -49,3 +49,9 @@ if(window.location.hash){
         },200,'swing');
     }
 });
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
